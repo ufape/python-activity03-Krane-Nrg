@@ -27,7 +27,10 @@ Imprima a tabuada de N, conforme o exemplo fornecido.
 
 
 def main():
-    pass  # your code here
+    numero = int(input("Digite um número inteiro entre 2 e 1000: "))
+    
+    for i in range(1, 11):
+      print(f"{numero} x {i} = {i*numero}")
 
 
 if __name__ == '__main__':
